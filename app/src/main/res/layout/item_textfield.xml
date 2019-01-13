@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:paddingTop="10dp"
+              android:layout_height="wrap_content">
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+    >
+
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/tvNumber"
+                  tools:text="1"
+                  android:textStyle="bold"
+                  android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+
+        />
+        <LinearLayout android:layout_width="0dp"
+                      android:layout_height="wrap_content"
+                      android:layout_weight="1"
+                      android:layout_marginLeft="8dp"
+                      android:orientation="vertical">
+            <TextView android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:id="@+id/tvQuestion"
+                      tools:text="Pertanyaan 1"
+                      android:textStyle="bold"
+                      android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+
+            />
+            <EditText android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:hint="Masukan jawaban disini"
+                      android:id="@+id/answerTextfied"
+                      android:layout_marginTop="8dp"
+            />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

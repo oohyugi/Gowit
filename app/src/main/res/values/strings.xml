@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Gowit</string>
+    <string name="navigation_drawer_open">open</string>
+    <string name="navigation_drawer_close">close</string>
+    <string name="desc_app">Aplikasi Sistem Informasi Penilaian Kinerja dan Kelembagaan Rantai Pasok Kelapa Sawit
+    </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

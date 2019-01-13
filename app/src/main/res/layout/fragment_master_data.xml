@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:layout_margin="16dp"
+              tools:context=".petani.MasterDataFragment">
+
+
+        <TextView
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Nama"
+        android:textStyle="bold"/>
+        <TextView
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:id="@+id/tvName"
+
+        />
+
+    <TextView
+            android:layout_marginTop="4dp"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Jenis Kelamin"
+            android:textStyle="bold"/>
+    <TextView
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:id="@+id/tvJk"
+    />
+    <TextView
+            android:layout_marginTop="4dp"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Usia"
+            android:textStyle="bold"/>
+    <TextView
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:id="@+id/tvUsia"
+    />
+
+    <TextView
+            android:layout_marginTop="4dp"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Pendidikan"
+            android:textStyle="bold"/>
+    <TextView
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:id="@+id/tvPendidikan"
+    />
+
+    <TextView
+            android:layout_marginTop="4dp"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Pekerjaan"
+            android:textStyle="bold"/>
+    <TextView
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:id="@+id/tvPekerjaan"
+    />
+    <TextView
+            android:layout_marginTop="4dp"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Alamat"
+            android:textStyle="bold"/>
+    <TextView
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:id="@+id/tvAlamat"
+    />
+
+
+
+    <Button
+            android:layout_marginTop="14dp"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:id="@+id/btnKelembagaan"
+    android:text="Kuisioner Kelembagaan"
+    style="@style/Base.Widget.AppCompat.Button.Colored"/>
+    <Button
+            android:layout_marginTop="14dp"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:id="@+id/btnKinerja"
+            android:text="Kuisioner Kinerja"
+            style="@style/Base.Widget.AppCompat.Button.Colored"/>
+
+</LinearLayout>

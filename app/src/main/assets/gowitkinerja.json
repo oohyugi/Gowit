@@ -1,0 +1,417 @@
+[
+
+{
+	"question_id" : 1,
+	"question_name" : "Jumlah Produksi TBS per tahun (satuan Ton)",
+	"answer_type" : "textfield_number",
+	"question_answer" : [
+
+	]
+},
+{
+	"question_id" : 2,
+	"question_name" : "Berapa kisaran berat tandan TBS kelapa sawit per pohon?",
+	"answer_type" : "choice",
+	"question_answer" : [
+		{
+			"answer_id" : 1,
+			"answer_name" : "10-20 Kg"
+		},
+		{
+			"answer_id" : 2,
+			"answer_name" : "20-30 Kg"
+		},
+		{
+			"answer_id" : 3,
+			"answer_name" : "> 30 Kg"
+		}
+
+	]
+	
+},
+{
+	"question_id" : 3,
+	"question_name" : "Berapa lama periode siklus jarak panen ?",
+	"answer_type" : "choice",
+	"question_answer" : [
+		{
+			"answer_id" : 1,
+			"answer_name" : "7 Hari"
+		},
+		{
+			"answer_id" : 2,
+			"answer_name" : "10 Hari"
+		},
+		{
+			"answer_id" : 3,
+			"answer_name" : "15 Hari"
+		},
+		{
+			"answer_id" : 4,
+			"answer_name" : "> 15 Hari"
+		}
+
+	]
+	
+},
+{
+	"question_id" : 4,
+	"question_name" : "Berapa umur tanaman kelapa sawit yang dimiliki?",
+	"answer_type" : "choice",
+	"question_answer" : [
+		{
+			"answer_id" : 1,
+			"answer_name" : "0-5 Tahun"
+		},
+		{
+			"answer_id" : 2,
+			"answer_name" : "5-15 Tahun"
+		},
+		{
+			"answer_id" : 3,
+			"answer_name" : "15-20 Tahun"
+		},
+		{
+			"answer_id" : 4,
+			"answer_name" : "> 20 Tahun"
+		}
+
+	]
+	
+},
+{
+	"question_id" : 5,
+	"question_name" : "Berapa jumlah brondolan TBS kelapa sawit setiap periode siklus panen?",
+	"answer_type" : "choice",
+	"question_answer" : [
+		{
+			"answer_id" : 1,
+			"answer_name" : "0-10 Kg"
+		},
+		{
+			"answer_id" : 2,
+			"answer_name" : "10-20 Kg"
+		},
+		{
+			"answer_id" : 3,
+			"answer_name" : "20-30 Kg"
+		},
+		{
+			"answer_id" : 4,
+			"answer_name" : "> 30 Kg"
+		}
+
+	]
+	
+},
+{
+	"question_id" : 6,
+	"question_name" : "Berapa lama waktu sejak  TBS dipanen sampai terjual (Satuan Hari)",
+	"answer_type" : "textfield_number",
+	"question_answer" : [
+
+	]
+},
+{
+	"question_id" : 7,
+	"question_name" : "Berapa harga jual TBS saat ini /Kg ?",
+	"answer_type" : "textfield_number",
+	"question_answer" : [
+
+	]
+},
+{
+	"question_id" : 8,
+	"question_name" : "Dalam 3 bulan terakhir, Berapa harga jual terendah /Kg ?",
+	"answer_type" : "textfield_number",
+	"question_answer" : [
+
+	]
+},
+{
+	"question_id" : 9,
+	"question_name" : "Dalam 3 bulan terakhir, Berapa harga jual tertinggi /Kg ?",
+	"answer_type" : "textfield_number",
+	"question_answer" : [
+
+	]
+},
+{
+	"question_id" : 10,
+	"question_name" : "Sumber2 informasi sehubungan dengan perkembangan harga dan tingkat harga jual/ harga beli TBS saat ini:",
+	"answer_type" : "textfield",
+	"question_answer" : [
+
+	]
+},
+
+{
+	"question_id" : 11,
+	"question_name" : "Berapa selisih (potongan) harga yang diterima dari seharusnya karena dinilai oleh pembeli tidak memenuhi mutu atau susut /Kg ?",
+	"answer_type" : "textfield",
+	"question_answer" : [
+
+	]
+},
+{
+	"question_id" : 12,
+	"question_name" : "Apakah pembayaran oleh pembeli dilakukan secara tunai ?",
+	"answer_type" : "choice",
+	"question_answer" : [
+		{
+			"answer_id" : 1,
+			"answer_name" : "Ya"
+		},
+		{
+			"answer_id" : 2,
+			"answer_name" : "Tidak"
+		}
+	]
+	
+},
+
+{
+	"question_id" : 13,
+	"question_name" : "Nama Pedagang yang menjadi pelanggan :",
+	"answer_type" : "list",
+	"question_answer" : [
+		{
+			"answer_id" : 1,
+			"answer_name" : "a"
+		},
+		{
+			"answer_id" : 2,
+			"answer_name" : "b"
+		},
+		{
+			"answer_id" : 3,
+			"answer_name" : "c"
+		},
+		{
+			"answer_id" : 3,
+			"answer_name" : "d"
+		}
+	]
+	
+},
+{
+	"question_id" : 14,
+	"question_name" : "Alamat Pedagang yang menjadi pelanggan :",
+	"answer_type" : "list",
+	"question_answer" : [
+		{
+			"answer_id" : 1,
+			"answer_name" : "a"
+		},
+		{
+			"answer_id" : 2,
+			"answer_name" : "b"
+		},
+		{
+			"answer_id" : 3,
+			"answer_name" : "c"
+		},
+		{
+			"answer_id" : 3,
+			"answer_name" : "d"
+		}
+	]
+	
+},
+{
+	"question_id" : 15,
+	"question_name" : "Pemenuhan terhadap permintaan TBS ",
+	"answer_type" : "choice",
+	"question_answer" : [
+		{
+			"answer_id" : 1,
+			"answer_name" : "Selalu terpenuhi"
+		},
+		{
+			"answer_id" : 2,
+			"answer_name" : "Kadang-kadang terpenuhi "
+		}
+		
+	]
+	
+},
+{
+	"question_id" : 16,
+	"question_name" : "Apakah permintaan terhadap TBS dinilai:",
+	"answer_type" : "choice",
+	"question_answer" : [
+		{
+			"answer_id" : 1,
+			"answer_name" : "Sangat Tinggi"
+		},
+		{
+			"answer_id" : 2,
+			"answer_name" : "Tinggi"
+		},
+		{
+			"answer_id" : 3,
+			"answer_name" : "Sedang"
+		},
+		{
+			"answer_id" : 4,
+			"answer_name" : "Rendah"
+		},
+		{
+			"answer_id" : 5,
+			"answer_name" : "Sangat Rendah"
+		}
+		
+	]
+	
+},
+{
+	"question_id" : 17,
+	"question_name" : "Apakah penjualan TBS / pengiriman TBS dilengkapi dokumen?",
+	"answer_type" : "choice",
+	"question_answer" : [
+		{
+			"answer_id" : 1,
+			"answer_name" : "Ada"
+		},
+		{
+			"answer_id" : 2,
+			"answer_name" : "Tidak"
+		}
+		
+	]
+	
+},
+{
+	"question_id" : 18,
+	"question_name" : "Apakah memiliki kendaraan pengangkutan untuk menjual TBS?",
+	"answer_type" : "choice",
+	"question_answer" : [
+		{
+			"answer_id" : 1,
+			"answer_name" : "Ada"
+		},
+		{
+			"answer_id" : 2,
+			"answer_name" : "Tidak"
+		}
+		
+	]
+	
+},
+{
+	"question_id" : 19,
+	"question_name" : "Berapa biaya yang dibutuhkan untuk pengiriman TBS ke Pedagang atau Pabrik Kelapa Sawit /Ton",
+	"answer_type" : "textfield",
+	"question_answer" : [
+		
+	]
+	
+},
+{
+	"question_id" : 20,
+	"question_name" : "Penggunaan Bibit.",
+	"answer_type" : "textfield",
+	"question_answer" : [
+		
+	]
+	
+},
+{
+	"question_id" : 21,
+	"question_name" : "Berapa lama memperoleh bibit kelapa sawit /Bulan",
+	"answer_type" : "textfield",
+	"question_answer" : [
+		
+	]
+	
+},
+{
+	"question_id" : 22,
+	"question_name" : "Jumlah pemasok bibit kelapa sawit ",
+	"answer_type" : "textfield",
+	"question_answer" : [
+		
+	]
+	
+},
+{
+	"question_id" : 23,
+	"question_name" : "Penggunaan Pupuk ",
+	"answer_type" : "textfield",
+	"question_answer" : [
+		
+	]
+	
+},
+{
+	"question_id" : 24,
+	"question_name" : "Berapa kali siklus dilakukan pemupukan dalam setahun /Kali",
+	"answer_type" : "textfield",
+	"question_answer" : [
+		
+	]
+	
+},
+{
+	"question_id" : 25,
+	"question_name" : "Jumlah pemasok pupuk kelapa sawit",
+	"answer_type" : "textfield",
+	"question_answer" : [
+		
+	]
+	
+},
+{
+	"question_id" : 26,
+	"question_name" : "Berapa lama waktu yang dibutuhkan dalam persiapan tanam (pengolahan lahan sampai penanaman)",
+	"answer_type" : "textfield",
+	"question_answer" : [
+		
+	]
+	
+},
+{
+	"question_id" : 27,
+	"question_name" : "Berapa biaya yang dibutuhkan dalam penyediaan lahan dan persiapan tanam :",
+	"answer_type" : "textfield",
+	"question_answer" : [
+		
+	]
+	
+},
+{
+	"question_id" : 28,
+	"question_name" : "Berapa total biaya yang dibutuhkan dalam penyediaan bibit, pupuk dan alat kerja /Ha",
+	"answer_type" : "textfield_number",
+	"question_answer" : [
+		
+	]
+	
+},
+{
+	"question_id" : 29,
+	"question_name" : "Biaya yang dibutuhkan untuk penyediaan tenaga kerja, pemeliharaan sampai dengan panen /Ha",
+	"answer_type" : "textfield_number",
+	"question_answer" : [
+		
+	]
+	
+},
+{
+	"question_id" : 30,
+	"question_name" : "Apakah petani bekerjasama dengan lembaga tertentu dalam menjual TBS",
+	"answer_type" : "choice",
+	"question_answer" : [
+		{
+			"answer_id" : 1,
+			"answer_name" : "Ya"
+		},
+		{
+			"answer_id" : 2,
+			"answer_name" : "Tidak"
+		}
+	]
+	
+}
+
+]

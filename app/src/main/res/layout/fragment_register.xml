@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:context=".register.RegisterFragment">
+
+
+    <LinearLayout
+            android:layout_width="match_parent" android:layout_height="match_parent"
+            android:padding="16dp"
+            android:orientation="vertical">
+
+
+        <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <android.support.design.widget.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Nama"
+                    android:inputType="textPersonName"
+                    android:id="@+id/etName"/>
+
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+                android:layout_marginTop="14dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <android.support.design.widget.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Username"
+                    android:inputType="textPersonName"
+                    android:id="@+id/etUsername"/>
+
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+                android:layout_marginTop="14dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <android.support.design.widget.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Password"
+                    android:inputType="textPassword"
+                    android:id="@+id/etPassword"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+                android:layout_marginTop="14dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <android.support.design.widget.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Alamat Rumah"
+                    android:lines="3"
+                    android:singleLine="false"
+                    android:id="@+id/etAlamat"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:text="Jenis kelamin"
+                  android:textColor="@color/colorAccent"
+                  android:layout_marginTop="14dp"
+                  android:textSize="12sp"/>
+        <RadioGroup
+                android:layout_width="match_parent"
+                android:id="@+id/radioGroupJk"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+            <RadioButton android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:text="Laki laki"
+                         android:id="@+id/rbLaki"/>
+            <RadioButton
+                    android:id="@+id/rbPrempuan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Perempuan"/>
+        </RadioGroup>
+
+        <LinearLayout
+                android:layout_marginTop="14dp"
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+
+        android:orientation="horizontal">
+
+                <android.support.design.widget.TextInputEditText
+                        android:layout_width="100dp"
+                                                                 android:layout_height="wrap_content"
+                                                                 android:hint="Usia"
+                                                                 android:inputType="numberDecimal"
+                                                                 android:id="@+id/etUsia"
+                android:maxLength="3"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Tahun"/>
+        </LinearLayout>
+
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:text="Pendidikan Terakhir"
+                  android:textColor="@color/colorAccent"
+                  android:layout_marginTop="14dp"
+                  android:textSize="12sp"/>
+        <RadioGroup
+                android:layout_width="match_parent"
+                android:id="@+id/radioGroupPend"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+            <RadioButton android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:text="Sekolah Dasar"
+                         android:id="@+id/rbSd"/>
+            <RadioButton
+                    android:id="@+id/rbSmp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sekolah Menengah Pertama/Sederajad"/>
+            <RadioButton
+                    android:id="@+id/rbSma"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sekolah Menengah Atas/Sederajad"/>
+
+            <RadioButton
+                    android:id="@+id/rbDiploma"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Diploma"/>
+            <RadioButton
+                    android:id="@+id/rbSarjana"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sarjana"/>
+
+        </RadioGroup>
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:text="Pekerjaan Utama"
+                  android:textColor="@color/colorAccent"
+                  android:layout_marginTop="14dp"
+                  android:textSize="12sp"/>
+        <RadioGroup
+                android:layout_width="match_parent"
+                android:id="@+id/radioGroupPeker"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+            <RadioButton android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:text="Pegawai Pemerintahan"
+                         android:id="@+id/rbPegawaiPemerintahan"/>
+            <RadioButton
+                    android:id="@+id/rbSwasta"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pegawai Swasta"/>
+            <RadioButton
+                    android:id="@+id/rbPedagang"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pedagang"/>
+
+            <RadioButton
+                    android:id="@+id/rbpetani"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Petani"/>
+
+            <EditText
+                    android:layout_width="match_parent"
+                    android:hint="Lainnya : Sebutkan"
+                    android:id="@+id/etLainya"
+                    android:layout_height="wrap_content"/>
+
+        </RadioGroup>
+
+        <!--<TextView android:layout_width="wrap_content" android:layout_height="wrap_content"-->
+        <!--android:text="Alamat Rumah"-->
+        <!--android:textColor="@color/colorAccent"-->
+        <!--android:layout_marginTop="14dp"-->
+        <!--android:textSize="12sp"/>-->
+
+        <!--<EditText-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:hint="Desa"-->
+        <!--android:id="@+id/etDesa"-->
+        <!--android:layout_height="wrap_content"/>-->
+        <!--<EditText-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:hint="Kelurahan"-->
+        <!--android:id="@+id/etKelurahan"-->
+        <!--android:layout_marginTop="8dp"-->
+        <!--android:layout_height="wrap_content"/>-->
+        <!--<EditText-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:hint="Kecamatan"-->
+        <!--android:id="@+id/etKecamatan"-->
+        <!--android:layout_marginTop="8dp"-->
+        <!--android:layout_height="wrap_content"/>-->
+        <!--<EditText-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:hint="Kabupaten"-->
+        <!--android:id="@+id/etKabupaten"-->
+        <!--android:layout_marginTop="8dp"-->
+        <!--android:layout_height="wrap_content"/>-->
+
+        <!--<EditText-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:hint="Provinsi"-->
+        <!--android:id="@+id/etProvinsi"-->
+        <!--android:layout_marginTop="8dp"-->
+        <!--android:layout_height="wrap_content"/>-->
+
+
+        <Button
+                android:layout_marginTop="24dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnDaftar"
+                android:text="Simpan"
+                style="@style/Base.Widget.AppCompat.Button.Colored"/>
+
+    </LinearLayout>
+
+
+</ScrollView>
